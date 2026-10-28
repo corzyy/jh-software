@@ -1,0 +1,75 @@
+.app-tile {
+  padding: 0;
+}
+
+.app-grid {
+  background: none;
+  padding: 18px 12px;
+}
+
+.app-grid > child {
+  padding: 6px;
+  background: none;
+}
+
+.app-grid > child:focus-visible > .app-tile {
+  outline: 2px solid alpha(@accent_color, 0.6);
+  outline-offset: -2px;
+}
+
+.installed-badge {
+  color: @success_color;
+}
+
+.source-label {
+  color: alpha(currentColor, 0.55);
+  font-weight: 600;
+  font-size: 0.8em;
+}
+
+.padded-card {
+  padding: 18px;
+}
+
+.context-row {
+  padding: 12px;
+}
+
+.context-icon {
+  color: @accent_color;
+}
+
+.screenshots {
+  padding: 12px 0 6px 0;
+  background-color: alpha(currentColor, 0.04);
+}
+
+.stars {
+  color: #e5a50a;
+  font-size: 1.2em;
+}
+
+.icon-dropshadow {
+  -gtk-icon-shadow: 0 1px 2px alpha(black, 0.2), 0 2px 8px alpha(black, 0.08);
+}
+
+.featured-tile {
+  border-radius: 18px;
+  color: white;
+}
+.featured-tile:hover { filter: brightness(1.05); }
+.featured-0 { background-image: linear-gradient(135deg, #1c71d8, #613583); }
+.featured-1 { background-image: linear-gradient(135deg, #26a269, #1c71d8); }
+.featured-2 { background-image: linear-gradient(135deg, #c64600, #a51d2d); }
+.featured-3 { background-image: linear-gradient(135deg, #613583, #c061cb); }
+.featured-4 { background-image: linear-gradient(135deg, #865e3c, #c64600); }
+.featured-5 { background-image: linear-gradient(135deg, #1a5fb4, #2190a4); }
+
+.sidebar-badge {
+  background-color: @accent_bg_color;
+  color: @accent_fg_color;
+  border-radius: 999px;
+  padding: 0 7px;
+  font-size: 0.8em;
+  font-weight: 700;
+}

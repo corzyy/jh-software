@@ -1,0 +1,18 @@
+[Desktop Entry]
+Type=Application
+Name=JH Software
+GenericName=Software Store
+Comment=Install, update and remove apps from RPM, Terra and Flatpak
+Exec=jh-software %U
+Icon=io.github.corzyy.JHSoftware
+Terminal=false
+Categories=GNOME;GTK;System;PackageManager;
+Keywords=store;software;app;install;update;rpm;flatpak;terra;dnf;packages;
+StartupNotify=true
+DBusActivatable=false
+MimeType=application/x-rpm;application/vnd.flatpak.ref;application/vnd.flatpak.repo;x-scheme-handler/appstream;
+Actions=Updates;
+
+[Desktop Action Updates]
+Name=Software Updates
+Exec=jh-software --updates

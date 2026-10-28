@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.corzyy.JHSoftware</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <name>JH Software</name>
+  <summary>Install and update apps from RPM, Terra and Flatpak</summary>
+  <developer id="io.github.corzyy">
+    <name>jh</name>
+  </developer>
+  <description>
+    <p>A fast software store for Fedora written in Rust with GTK 4 and libadwaita.</p>
+    <ul>
+      <li>Browse, search, install and remove apps</li>
+      <li>Native RPM packages and the Terra repository are preferred over Flatpak</li>
+      <li>System, RPM and Flatpak updates with offline updates on restart</li>
+      <li>Manage RPM repositories and Flatpak remotes</li>
+      <li>Ratings and reviews from the Open Desktop Ratings Service</li>
+    </ul>
+  </description>
+  <launchable type="desktop-id">io.github.corzyy.JHSoftware.desktop</launchable>
+  <categories>
+    <category>System</category>
+    <category>PackageManager</category>
+  </categories>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="0.1.0" date="2026-10-28"/>
+  </releases>
+</component>
